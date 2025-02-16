@@ -13,7 +13,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-API_KEY = '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'
+API_KEY = os.environ.get("AIPROXY_TOKEN")
 
 # Configure OpenAI API Key
 openai.api_key = API_KEY
