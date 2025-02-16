@@ -1,0 +1,7 @@
+flask
+openai
+requests
+bs4
+markdown2
+datetime
+gitpython
